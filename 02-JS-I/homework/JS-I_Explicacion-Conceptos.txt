@@ -1,0 +1,48 @@
+Variable:
+---------
+es una caja o contenedor en el cual podemos guardar información, datos, valores.
+Puede contener distintos tipos de datos, como números, cadenas de caracteres (como palabras,
+texto), valor verdadero o falso, entre muchos otros.
+
+String:
+-------
+En español, y relacionado a programación, un String es una "cadena de caracteres" (es decir,
+un texto, una palabra, una secuencia de letras, números o símbolos). Siempre se debe escribir
+entre comillas, para diferenciarlo de números o de variables, aunque también es posible
+escribir números como si fueran strings. Por ejemplo, no es lo mismo escribir el numero 100
+que escribir '100', ya que al estar escrito entre comillas, será tratado y considerado como
+un texto, y no necesariamente como un número.
+
+Funciones:
+----------
+Son porciones de código que pueden reutilizarse a medida que lo necesitemos, para evitar
+escribir muchas veces el mismo código (hacerlo es innecesario y lleva más tiempo, no es
+práctico). De esta manera, una tarea repetitiva se hace más sencilla, ya que escribimos
+el código una sola vez, y lo llamamos cada vez que lo necesitemos, utilizando su nombre.
+Una función puede realizar tareas sin necesidad de datos adicionales, pero a veces
+necesitamos realizar tareas con datos que ya tengamos disponible, analizarlos o darles un
+proceso para conseguir algo nuevo. Entonces, podemos crear una funcion que pida un
+"argumento", es decir, el dato a procesar, para que luego haga operaciones con ese dato y
+devuelva un resultado. Este resultado, la función puede devolverlo si se lo indicamos,
+colocando la palabra especial "Return" (que significa devolver, retornar).
+
+Declaraciones 'if':
+-------------------
+Significa "Si", pero en su forma de Condicional, es decir que propone una condición para ser
+evaluada. Ejemplo: "si esta condición se cumple, debo realizar las siguientes tareas".
+Entonces, el IF nos sirve para realizar una acción dependiendo de que el resultado de la
+condición sea verdadero o falso (si es verdadero, se realiza la accion uno, si es falso, se
+ejecuta la acción dos). Incluso, se puede establecer más de una condición, utilizando la
+palabra especial "ELSE IF" (significa, "Si no se cumple la condición...") y nos da la
+posibilidad de indicar una condición adicional. Para terminar, se puede dar una última
+indicación si así lo deseamos, para ejecutar una acción en caso de que ninguna de las
+anteriores condiciones se cumpla, colocando simplemente "ELSE" e indicando lo que debe
+suceder en ese caso.
+
+Valores booleanos:
+------------------
+Un valor booleano, es aquel que sólo puede tener dos estados: Verdadero o Falso (True or
+False). También se puede entender como "Activado" o "Desactivado". Son valores creados por
+el matemático George Boole, por eso se los llama Booleanos. Los obtenemos cuando realizamos
+una comparación o evaluamos la veracidad de una condición, conociendo si es True o False.
+También podemos establecer nosotros, si el valor de alguna variable es True o False.
