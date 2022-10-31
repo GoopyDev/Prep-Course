@@ -1,0 +1,26 @@
+Arrays:
+-------
+Son contenedores de objetos, básicamente. Pueden contener varios tipos de datos (números, strings, booleanos, otros arrays)
+Se escriben con [], y dentro de los corchetes podemos también indicar qué objetos contendrá nuestro array, separándolos  por
+comas. Ejemplo: var miArray = [ "Juan", "Martin", "perro", 4, true, ["array dentro de array","con más elementos"] ]
+Teniendo un array, se puede acceder a los objetos que están dentro si colocamos el nombre del array seguido de corchetes y
+el número de la posición del objeto que queremos, teniendo en cuenta que se comienza a contar desde el cero.
+Ej: miArray[2] devolvería el 3er elemento "perro" de nuestro array.
+
+Podemos añadir elementos al array después de haberlo creado, usando los métodos:
+miArray.push() colocando entre los paréntesis el elemento que queramos añadir. Esto añadirá el objeto al final de la lista.
+miArray.unshift() colocando en los paréntesis el elemento deseado. Esto añade el elemento al principio de la lista.
+
+Podemos quitar elementos del array con los métodos:
+miArray.pop() eliminando el último elemento de la lista.
+miArray.shift() elimina el primer elemento de la lista.
+
+Podemos ver la longitud del array con el método miArray.length
+
+Hay formas de recorrer todos los elementos del array para procesar cada elemento, y para esto suele utilizarse el bucle FOR,
+al cual debemos indicarle que como condición de finalización utilice "miArray.length - 1", para que busque en el array
+tantas veces como el número de elementos que contiene (el menos 1 lo colocamos porque hay que recordar que el objeto 1 está
+en la posición 0, entonces si nuestro array tuviera 10 elementos, no debe contar del 1 al 10, sino del 0 al 9)
+
+Los arrays poseen muchos más métodos útiles para manipular los elementos que contiene, como ordenar en forma ascendente,
+descendente, ver si un elemento existe dentro del array, etc.

@@ -1,0 +1,40 @@
+For:
+----
+En programación se conoce al FOR como una porción de código que se ejecutará varias veces hasta que se cumpla una condición
+de corte o finalización, que le indicamos nosotros. A estas porciones de código que corren varias veces se las conoce como
+"bucles" o "loops" en inglés, y hay varios: bucles FOR, bucles WHILE, bucles DO.. WHILE.
+En particular, el bucle FOR tendrá una variable que suele comenzar en 0, tendrá una condición que evaluará si la variable
+ha llegado al valor que indiquemos como corte (ej. "si la variable es menor a 10, continuar ejecutando el bucle") y cada
+vez que todo el código se ejecute, la variable aumenta su valor en 1 (por lo general), siendo que en cada vuelta se acerca
+más a cumplir la condición de corte. Eventualmente, cuando se cumple la condición, finaliza la ejecución del bucle FOR,
+continuando con el resto del programa.
+
+Estructura del bucle FOR:
+
+for (VARIABLE; CONDICIÓN DE FIN; "PASO" o NÚMERO PARA INCREMENTAR LA VARIABLE) {
+	// Bloque de código
+	// Bloque de código
+}
+
+OPERADORES LOGICOS EN JAVASCRIPT:
+=========================
+Los operadores lógicos se utilizan para comparar valores dentro de condiciones. Permiten evaluar varias condiciones a la vez
+en el caso que queramos que el código se ejecute si todas las condiciones se cumplen, si al menos una se cumple, si alguna
+no se cumple, etc.
+
+Operador && (y)
+---------------
+Al utilizar este operador, todas las condiciones que se evaluen deben ser verdaderas para que el código se ejecute.
+
+Operador || (o)
+---------------
+Al usar el operador || podemos indicar que si una de las condiciones se cumple, el código se ejecutará. Basta con que una
+de ellas sea true para avanzar con el código.
+
+Operador ! (not)
+----------------
+Es un operador que se utiliza para negar el resultado de un valor booleano. Básicamente cambia el estado de TRUE a FALSE, y
+de FALSE a TRUE cuando es colocado antes de una variable o condición. Así, si tenemos:
+if !(condicion === true)
+estamos evaluando si 'condicion' es verdadera, pero luego al resultado de esa comparación, lo invertimos al haber colocado
+el operador ! (es decir, lo hemos negado).
