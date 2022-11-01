@@ -1,0 +1,34 @@
+Objetos:
+--------
+En JavaScript, todo es un objeto. Un objeto es un contenedor que almacena información sobre una cosa, pudiendo albergar todo tipo de
+datos presente en JavaScript. Para ser definido, se utilizan llaves {}, y todas sus características irán dentro, organizadas en pares
+de "clave" y "valor" separadas por los : (dos puntos). Puede tener "Propiedades" y "Métodos", que le dan sentido y funcionalidad.
+
+Propiedades:
+------------
+Son datos que se definen dentro de un objeto, para indicar las características del mismo. Si tenemos un objeto "const pelota = {}",
+podemos ampliar la información que tenemos de este objeto creando variables dentro y dándoles valores. Por ej: podemos decir que el
+objeto pelota tiene color, tamaño, peso, rebote, material de contruccion, etc.
+
+Métodos:
+--------
+Los objetos también puden realizar cosas, recibir información y procesarla según su naturaleza. A nuestro objeto pelota se le pueden
+asignar acciones como "Rodar", "Rebotar", "Pincharse", etc., y para hacerlo definimos funciones dentro de él. Las funciones que estén
+dentro de un objeto se llaman "Métodos" del objeto, y pueden ser llamadas escribiendo el nombre del objeto, un punto, el nombre de la
+función y colocar paréntesis. ( pelota.rodar(), pelota.explotar(), etc )
+
+Bucle For...in:
+---------------
+Cuando queremos recorrer las Propiedades y Métodos de los objetos, podemos acudir a las herramientas incorporadas comunes a todos
+ellos. Para los Arrays podíamos hacerlo utilizando un bucle For, pero los Objetos son distintos y deben iterarse usando un bucle
+For ... in. Este tipo de bucle nos permite "PARA cada ELEMENTO DENTRO de OBJETO", acceder al elemento y realizar procesos con la
+información que posee.
+
+Notación de Puntos vs. Corchetes:
+---------------------------------
+Son dos formas de acceder a las Propiedades y Métodos de un objeto. Se pueden usar puntos (objeto.nombre; objeto.medidas) o corchetes
+(objeto["nombre"]; objeto["medidas"]).
+Como se ve en los ejemplos, hay una diferencia importante, que al usar puntos se utiliza el nombre de la propiedad, mientras que al
+usar corchetes, hay que pasarle un string. Esta diferencia nos permite usar variables en los corchetes, para hacer referencia a un
+string que tengamos guardado o que obtengamos de alguna funcion, y esto amplía las posibilidades para automatizar llamados a las
+características de un objeto.
