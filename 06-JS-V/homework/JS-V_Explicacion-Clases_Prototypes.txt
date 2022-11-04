@@ -1,0 +1,21 @@
+Clases:
+-------
+Son plantillas mediante las cuales podemos crear muchos objetos con características similares, haciendo más fácil
+tener tantos objetos como queramos, sin tener que repetir código. La clase contiene toda la estructura del objeto,
+con sus propiedades y métodos, y sólo es cuestión de realizar una llamada al "constructor" de la clase, con las
+características que queramos modificar del objeto.
+Así, si tenemos una clase Perro, podemos decir que la misma tendrá características como "raza", "color", "tamaño",
+"pelaje", etc, y que tiene métodos como "ladrar", "correr", "comer", "dormir". Esta sería nuestra plantilla para
+crear perros de muchas razas, colores, y todos ellos compartiran las acciones que pueden realizar.
+Cada objeto que creemos a partir de una clase, será una "instancia" de esa clase.
+Ej:
+var labrador = new Perro("Labrador", "Dorado", "Grande", "Corto"); //"raza", "color", "tamaño", "pelaje"
+
+Prototype:
+----------
+Cada objeto instanciado, ha salido de una Clase. Ésta será el Prototype del cual el objeto fue creado, y por tal
+motivo, el objeto hereda las características y métodos de ella. Un objeto puede tener métodos heredados de su
+Prototype, y no los aloja en su interior. Esto reduce el consumo de memoria, ya que los métodos no están en cada
+objeto, sino en un sólo lugar (el Prototype). Así, se puede escalar el proyecto, y si queremos que un tipo de
+objeto posea nuevas características, podemos añadirlas al Prototype y todos los objetos similares heredarán sus
+características automáticamente.
