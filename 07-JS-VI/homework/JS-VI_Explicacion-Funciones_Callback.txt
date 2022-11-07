@@ -1,0 +1,6 @@
+Funciones Callback:
+-------------------
+Son Funciones que se utilizan dentro de otras Funciones como argumento, para devolver un resultado que luego será utilizado por la
+función que la llamó inicialmente (siendo conocida como funcion de orden superior o higher order function -toda funcion que reciba
+una o más funciones, o que devuelva una funcion-, que permiten tener un nivel más alto de abstracción para centrarse en resolver
+problemas potencialmente más complejos)
