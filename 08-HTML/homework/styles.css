@@ -1,0 +1,75 @@
+h1 {        color: #00baff;                 }
+
+            img {       width:  400px;
+            
+                        border: 1px solid white;}
+
+            #thirdDiv { height: 600px;
+                        max-width:  500px;
+                        background-color: #fff3;
+                        padding: 50px;
+                        border: 5px dashed #0bfA;
+
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;          }
+            
+            #linkDiv {  background-color: #f5fffaaa;
+                        display: inline-block;
+                        padding: 0.1rem 1rem 0.4rem 1rem;
+                        border-radius: 5px;               }
+
+            .spanId {   font-size: 18px;
+                        margin: 50px;                     }
+                    
+            body {      background-image: url("https://static.vecteezy.com/system/resources/previews/005/549/970/large_2x/abstract-hi-tech-background-virtual-reality-futuristic-technology-and-circuit-board-futuristic-sci-fi-interface-digital-computer-infographic-of-engineer-data-science-placeholder-landing-page-vector.jpg");
+                        background-color:rgb(0, 0, 1);
+                        text-align: center;
+                        color: #fff;                   
+                        margin: 0px;
+                        text-shadow: -1px 1px 1px black;}
+
+            div {       text-align: center;               }
+
+            a {         text-shadow: none;                }
+
+            header {    background-color: #000000aa;
+                        width: 100%;
+                        height: 88px;
+                        position: fixed;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        align-content: center;
+                        top: 0px;
+                        z-index: 999;                     }
+
+            #headerDiv {color: white;
+                        border-bottom: 3px aqua double;
+                        width: inherit;
+                        display: flex;
+                        height: 100%;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: center;              }
+
+            footer {    color: white;
+                        background-color: #191970dd;
+                        border-top: 1px aqua solid;
+                        bottom:     0px;
+                        height:     40px;
+                        margin-top: 1rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;          }
+
+            ul {        list-style-type: none;
+                        padding: 0px;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        align-content: center;            }
